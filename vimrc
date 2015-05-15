@@ -136,10 +136,6 @@ endfunction
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
-set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim
 
 " Always show statusline
 set laststatus=2
